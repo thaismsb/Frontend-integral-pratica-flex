@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(248, 248, 150);  
+}
+.close{
+    padding:18px 82px ;
+    text-align: center;
+    background-color: #2F2D2C;
+    color: white ;
+    text-decoration: none;
+    border-radius: 5px ;
+    margin-bottom: 55px ;
+    font-weight: 500;
+    font-size: 16px;
+    
+}
+a{
+    text-align: center;
+    color:#9097AD;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+   
+
+}
+.container-box1 h1{
+    all: unset;
+    text-align: center;
+    font-size: 18px ;
+    font-weight: 700px;
+    align-self: center;
+    margin-top: 55px;
+    margin-bottom: 72px ;
+    margin-left: 97px;
+    margin-right: 97px;
+    color: #212D59;
+    ;
+}
+
+.container-box1{
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width:600px ;
+    max-height: 600px;
+    border-radius: 15px ;
+    background-color:white;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.x{
+max-height: 24px;
+max-width: 24px;
+align-self: flex-end;
+margin-top: 20px;
+margin-right: 20px;
+
+}
+
+.container-box1-emojis{
+    display: flex;
+    flex-direction: row;
+}
+.container-box1-emojis div{
+    display: flex;
+    flex-direction: column;
+    align-self: center;  
+    margin-bottom: 85px;
+    background-color: tomato;
+    
+}
+
+/* .meio{
+    margin-right: 67px;
+    margin-left: 67px; 
+} */
+
+.container-box2{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    max-width: 500px;
+    background-color: white;
+    margin-left: 58px ;
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.container-box2-done{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 35px;
+    padding: 0px 40px;
+    margin-left: 20px;
+    
+
+}
+.coracao{
+        max-height: 57px;
+        max-width: 57px;
+        align-self: center;  
+        margin-bottom: 15px;   
+       
+}
+.done{
+    padding:18px 45px ;
+    background-color: #2F2D2C;
+    color: white ;
+    text-decoration: none;
+    border-radius: 5px ;
+    font-weight: 500;
+    font-size: 16px;
+    font-weight: 500;
+font-size: 16px;
+margin-left: 34px;
+
+}
+.container-box2 h1{
+    margin-bottom: 40px;
+    font-weight: bold;
+font-size: 18px;
+color: #212D59;
+}
+.x2{
+    max-height: 24px;
+    max-width: 24px;
+    align-self: flex-end;
+    margin-top: 20px;
+    margin-right: 20px;
+   
+}
+p{
+    font-weight: 500;
+ font-size: 16px;
+ color: #212D59;
+}
+.container-box2 a{
+    font-weight: 500;
+font-size: 16px;
+}

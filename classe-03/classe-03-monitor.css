@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color:#E9EEF6;
+   
+   
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    Height :608px;
+    background-color: white;
+    border-radius: 32px ;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+ .container-box{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+} 
+
+.container-box1{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 500px;
+    max-height :328px;
+    background-color:#F8F2FA;
+    border-radius: 5px;
+    padding: 0px 50px 0px 50px;
+    background-color: turquoise;
+    
+}
+.container-box1 img{
+    margin-top: 35px;
+    margin-bottom: 41px;
+
+}
+.container-box1 h1{
+    margin-bottom: 10px;
+
+}
+.container-box1 p{
+    box-sizing: border-box;
+    margin-bottom: 35px;
+    font-size: 16px;
+
+}
+.container-box1 a{
+    padding:12px 23px ;
+    background-color: #0C1727;
+    color:white;
+    text-decoration: none;
+    border-radius: 5px ;
+    font-weight: 500;
+    font-size: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 63px ;
+
+}
+.h1-principal{
+    text-align: center;
+}
+.container-box1 terceiro{
+    margin-right: 50px;
+}
+
